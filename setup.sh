@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/Scrpits/env bash
 
 # exit when any command fails
 set -o errexit
