@@ -60,10 +60,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-## Variable CORS_ALLOW_ALL_ORIGINS is set to True to allow unrestricted access to the API.
-CORS_ALLOW_ALL_ORIGINS = True
-ROOT_URLCONF = 'todoproject.urls'
 
+ROOT_URLCONF = 'todoproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -82,6 +80,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todoproject.wsgi.application'
 
+## Variable CORS_ALLOW_ALL_ORIGINS is set to True to allow unrestricted access to the API.
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
